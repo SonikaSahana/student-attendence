@@ -1,0 +1,38 @@
+.header{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+#display > div{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+input{
+    margin: 10px;
+}
+
+p{
+    min-width: 30%;
+}
+
+li{
+    display: flex;
+    align-items: center;
+
+}
+
+.hide{
+    display : none;
+}
+
+table {
+    width: 100%;
+}
+
+th,td{
+    min-width: 25%;
+    text-align: center;
+}

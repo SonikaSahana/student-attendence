@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Attendence</title>
+</head>
+
+<body>
+    <div class="header">
+        <form id="date">
+            <input type="date" name="getdate" id="getdate" value="2023-10-10">
+            <button type="submit">Search</button>
+        </form>
+
+        <button id="report" type="submit">Attendence report</button>
+    </div>
+    <h2>Students</h2>
+    <div id="display">
+        <form >
+
+            <ul>
+                <!-- <li>fav_language
+                    <input type="radio" name="fav_language" value="present" required>
+                    <label for="present">present</label>
+                    <input type="radio" name="fav_language" value="absent" required>
+                    <label for="absent">absent</label>
+                </li>
+                <li>fav_language2
+                    <input type="radio" name="2" value="present" required>
+                    <label for="present">present</label>
+                    <input type="radio" name="2" value="absent" required>
+                    <label for="absent">absent</label>
+                </li> -->
+            </ul>
+        <button class="hide" type="submit">Submit</button>
+        </form>
+        <table id="attendence-report" class="hide">
+            <thead>
+
+                <tr>
+                    <th>Name</th>
+                    <th>Total present</th>
+                    <th>Attendence percentage</th>
+                </tr>
+            </thead>
+            <tbody>
+
+            </tbody>
+            </table>
+    </div>
+
+    
+
+</body>
+<script src="https://cdn.jsdelivr.net/npm/axios@1.1.2/dist/axios.min.js"></script>
+<script src="script.js"></script>
+<script src="attendence.js"></script>
+</html>
